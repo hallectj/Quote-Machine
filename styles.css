@@ -1,0 +1,119 @@
+body{
+  font-family: "Palatino Linotype", Helvetica, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+main{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 400px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.affected_color{
+  color: #fc6001;
+}
+
+.affected_color_bg{
+  background-color: #fc6001;
+}
+
+/* quote wrapper and > styles */
+
+.quote_wrapper, .mid_wrap{
+  width: 90%;
+  margin: 10px 15px;
+  padding: 5px;
+}
+
+blockquote{
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  word-spacing: .1em;
+  letter-spacing: 1.5px;
+  margin: 1.5em 10px;
+  padding: 0.5em, 5px;
+  text-shadow: 1px 1px 0px #151515;
+}
+
+blockquote p:first-child:before{
+  content: "\f10d";
+  margin-right: 0.5em;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+blockquote p:first-child{
+  display:  inline-block;
+  text-align: center;
+}
+
+p.author{
+  margin-top: 5px;
+  margin-right: 4px;
+  text-align: right;
+}
+
+/* mid-wrap and > styles */
+
+.mid_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_wrapper{
+  flex: 1;
+}
+
+.social_wrapper i{
+  font-size: 2em;
+}
+
+.quote_btn_wrapper{
+  margin-right: 1em;
+}
+
+.quote_btn{
+  color: #fff;
+  font-family: "Comic Sans MS";
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0.1em 2px 2px #000;
+}
+
+.quote_btn:active{
+    background-color: #151515;
+    text-shadow: -1px 1px #121;
+}
+
+/* bottom wrap styles */
+
+.bottom_wrap{
+  width: 100%;
+   margin-top: 5px;
+  background-color: #50875F;
+}
+
+footer{
+  margin-right: 1em;
+  text-align: right;
+  padding: 2px;
+}
+
+footer p{
+  font-size: .8em;
+  display: block;
+  margin-top: 1.1em;
+}
